@@ -12,7 +12,7 @@ permissions: {}
 
 jobs:
   release:
-    if: github.repository == 'cristobalgvera/nestjs-environment'
+    if: github.repository == '<YOUR_USER>/<YOUR_REPOSITORY>'
     permissions:
       contents: write
       pull-requests: write
